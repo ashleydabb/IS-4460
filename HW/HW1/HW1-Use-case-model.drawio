@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" modified="2024-01-29T06:08:22.548Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="zP0tJNBxn9vCkXW3GH5T" version="23.0.1" type="device">
+  <diagram name="Page-1" id="OclpIIvK60T-87HUuJKt">
+    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p7DtQNUJsWvajAgqIWX6-1" value="Use Case Model" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=31;" vertex="1" parent="1">
+          <mxGeometry x="302.5" y="100" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p7DtQNUJsWvajAgqIWX6-2" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Person.svg;imageBackground=none;" vertex="1" parent="1">
+          <mxGeometry x="610" y="200" width="103.6" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="p7DtQNUJsWvajAgqIWX6-3" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Person.svg;" vertex="1" parent="1">
+          <mxGeometry x="140" y="340" width="103.6" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="p7DtQNUJsWvajAgqIWX6-4" value="1. Movie Login" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="330" y="160" width="195" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p7DtQNUJsWvajAgqIWX6-5" value="2. View list of movies" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="330" y="250" width="195" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p7DtQNUJsWvajAgqIWX6-6" value="3. View details of one movie" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="330" y="340" width="195" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p7DtQNUJsWvajAgqIWX6-7" value="4. Add data for a new movie" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="328" y="430" width="195" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p7DtQNUJsWvajAgqIWX6-8" value="5. Update data for one movie" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="328" y="520" width="195" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p7DtQNUJsWvajAgqIWX6-9" value="6. Delete a movie" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="330" y="610" width="195" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p7DtQNUJsWvajAgqIWX6-10" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="550" y="190" width="60" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="p7DtQNUJsWvajAgqIWX6-11" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="250" y="190" width="60" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="p7DtQNUJsWvajAgqIWX6-13" value="Customer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="621.8" y="340" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p7DtQNUJsWvajAgqIWX6-14" value="Admin" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="161.8" y="480" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
