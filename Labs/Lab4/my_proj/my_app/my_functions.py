@@ -1,3 +1,4 @@
-def title_names (names:list):
-    new_names = [x.title() for x in names]
-    return new_names
+#include code from other files - step 1
+def fix_names_list (names:list):
+    return_list = [x.title() for x in names]
+    return return_list
