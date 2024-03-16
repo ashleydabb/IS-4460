@@ -5,6 +5,15 @@ from django.db import models
 
 class Customer(models.Model):
     name = models.CharField(max_length=100)
+    logo = models.FileField(upload_to='images/', null=True)
+    notes = models.TextField(null=True)
+    linkedin = models.URLField(null=True)
+    CHOICES = [
+         ('choice1', 'Choice 1'),
+         ('choice2', 'Choice 2'),
+         ('choice3', 'Choice 3'),
+         ]
+    my_field = models.CharField(max_length=20, choices=CHOICES, null=True)
 
     def __str__(self):
         return self.name

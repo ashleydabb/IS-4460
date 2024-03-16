@@ -1,6 +1,8 @@
 # urls.py
 from django.urls import path
 from . import views
+from django.conf.urls.static import static
+from django.conf import settings
 
 urlpatterns = [
     path('list/', views.CustomerList.as_view(), name='customer-list'),
@@ -10,8 +12,11 @@ urlpatterns = [
     path('order_edit/', views.OrderEdit.as_view(), name='order-edit'),
     path('order_delete/<int:order_id>/', views.OrderDelete.as_view(), name='order-delete'),
     path('contact_edit/<int:contact_id>/', views.ContactEdit.as_view(), name='contact-edit'),
-    path('contact_edit/', views.ContactEdit.as_view(), name='contact-edit'),
+    path('contact_edit/', views.ContactEdit.as_view(), name='contact-edit')
 
 ]
 
 
+# Serve media files during development
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)
